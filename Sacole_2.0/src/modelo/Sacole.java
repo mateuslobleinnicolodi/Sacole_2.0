@@ -12,25 +12,25 @@ import java.time.LocalDate;
  * @author Nicolodi
  */
 public class Sacole {
-    private int codigo;
-    private int nr_serie;
+    private Integer codigo;
+    private Integer nr_serie;
     private Double preco;
     private LocalDate data_validade;
     private String sabor;
 
-    public int getCodigo() {
+    public Integer getCodigo() {
         return codigo;
     }
 
-    public void setCodigo(int codigo) {
+    public void setCodigo(Integer codigo) {
         this.codigo = codigo;
     }
 
-    public int getNr_serie() {
+    public Integer getNr_serie() {
         return nr_serie;
     }
 
-    public void setNr_serie(int nr_serie) {
+    public void setNr_serie(Integer nr_serie) {
         this.nr_serie = nr_serie;
     }
 
